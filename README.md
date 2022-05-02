@@ -47,3 +47,7 @@ grepg8 [-A <#>|-f <file>|-r|-v|-V|-w] <search term>
 -V    Enable Verbose        The file path to the file will be printed along with the search result
 
 ```
+
+## File Structure
+![imgs/file_structure.PNG](url)
+

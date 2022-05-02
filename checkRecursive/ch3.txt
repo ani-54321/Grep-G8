@@ -1,0 +1,9 @@
+each implementation of C and C++ supports some features unique to its host machine or operating system.
+some programs, for example, must exercise precise control over the location of data in memory, or control the way certain functions receive parameters.
+the #pragma directives offer a way for each compiler to offer machine- and operating system-specific features, while maintaining overall compatibility with the C and C++ languages.
+pragma directives are machine-specific or operating system-specific by definition, and are typically different for every compiler.
+a pragma can be used in a conditional directive, to provide new preprocessor functionality. Or, use one to provide implementation-defined information to the compiler.
+the token-string is a series of characters representing a specific compiler instruction and arguments, if any.
+the number sign (#) should be the first non-white-space character on the line that contains the pragma.
+white-space characters can separate the number sign and the word "pragma". Following #pragma, write any text that the translator can parse as preprocessing tokens.
+the argument to #pragma is subject to macro expansion.

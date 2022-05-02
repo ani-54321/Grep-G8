@@ -1,0 +1,3 @@
+standard C++ multi-threading is cool. it's fast and works well with numerous tasks. for example, what could be better for hello world apps on C++ multi-threading?
+but when it comes for some real globally world apps they usually take much time for implementation and testing.
+and that`s when OpenMP enters the game.

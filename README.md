@@ -35,7 +35,7 @@ make install
 
 ### Command Syntax:
 ```
-grepg8 [-A <#> | -f <file> | -h | -r | -v | -V | -w] <search term>
+grepg8 [-A <#>|-f <file>|-r|-v|-V|-w] <search term>
 ```
 
 ### Modes:

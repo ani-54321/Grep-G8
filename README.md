@@ -7,21 +7,30 @@ Need at least either GNU C Compiler (4.9) with OpenMP or Intel C Compiler with O
 
 Compiler must have C++11 support.
 
-##> Installation
-GNU C Compiler
-`g++ -std=c++11 -fopenmp -O3 -o bin/perg src/perg.cpp`
-Makefile
+## Installation
+### GNU C Compiler
+```g++ -std=c++11 -fopenmp -O3 -o bin/perg src/perg.cpp```
+
+#### Makefile
+```
 make
 make install
-Intel C Compiler
-icc -std=c++11 -openmp -O3 -o bin/perg src/perg.cpp
-Makefile
+```
+
+### Intel C Compiler
+```icc -std=c++11 -openmp -O3 -o bin/perg src/perg.cpp```
+#### Makefile
+```
 make icc
 make install
-Usage
-Command Syntax:
-perg [-A <#> | -f <file> | -h | -r | -v | -V | -w] <search term>
-Modes:
+```
+## Usage
+
+### Command Syntax:
+```perg [-A <#> | -f <file> | -h | -r | -v | -V | -w] <search term>```
+
+### Modes:
+```
 -A    After Context         perg will grab a number of lines after the line containing the
                             <search term>. This does not work with search inversion.
                             
@@ -41,3 +50,4 @@ Modes:
 -w    File Parallelism      Signals perg to perform single-threaded searches of multiple files. Default
                             search behavior is to search files one at a time with mulitple threads.
                             This is optimal when the files are small, similar size, or there are many.
+```

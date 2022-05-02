@@ -62,5 +62,12 @@ grepg8 [-A <#>|-f <file>|-r|-v|-V] <search term>
 ### ch3.txt
 ![ch3.txt](https://github.com/ani-54321/Grep-G8/blob/main/imgs/txt_file3.PNG?raw=true)
 
-## Some Commands
+## Some Commands and Outputs
 
+![single file search](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out1.PNG?raw=true)
+
+![help command](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out2.PNG?raw=true)
+
+![search inversion](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out3.PNG?raw=true)
+
+![recursive folder search with file paths](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out4.PNG?raw=true)

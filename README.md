@@ -35,7 +35,7 @@ make install
 
 ### Command Syntax:
 ```
-grepg8 [-A <#>|-f <file>|-r|-v|-V|-w] <search term>
+grepg8 [-A <#>|-f <file>|-r|-v|-V] <search term>
 ```
 
 ### Modes:
@@ -61,4 +61,6 @@ grepg8 [-A <#>|-f <file>|-r|-v|-V|-w] <search term>
 
 ### ch3.txt
 ![ch3.txt](https://github.com/ani-54321/Grep-G8/blob/main/imgs/txt_file3.PNG?raw=true)
+
+## Some Commands
 

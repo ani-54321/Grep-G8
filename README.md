@@ -1,6 +1,6 @@
 # Grep-G8
 
-The [grep](https://en.wikipedia.org/wiki/Grep) command line utility was first introduced in 1974 as a method of searching files and directories using regular expressions. With the penetration of big data into every facet of the computing space datasets have grown exponentially in size. The original single-threaded grep implementation is too slow to effectively parse and search multi-gigabyte files and directories. We introduce perg which is a C++ multi-threaded implementation of grep developed at the National Center fo Supercomputing Applciations.
+The [grep](https://en.wikipedia.org/wiki/Grep) command line utility was first introduced in 1974 as a method of searching files and directories using regular expressions. With the penetration of big data into every facet of the computing space datasets have grown exponentially in size. The original single-threaded grep implementation is too slow to effectively parse and search multi-gigabyte files and directories. We introduce grepg8 which is a C++ multi-threaded implementation of grep.
 
 ## Requirements
 Need at least either GNU C Compiler (4.9) with OpenMP or Intel C Compiler with OpenMP
@@ -10,7 +10,7 @@ Compiler must have C++11 support.
 ## Installation
 ### GNU C Compiler
 ```
-g++ -std=c++11 -fopenmp -O3 -o bin/perg src/perg.cpp
+g++ -std=c++11 -fopenmp -O3 -o bin/grepg8 src/grepg8.cpp
 ```
 
 #### Makefile
@@ -21,7 +21,7 @@ make install
 
 ### Intel C Compiler
 ```
-icc -std=c++11 -openmp -O3 -o bin/perg src/perg.cpp
+icc -std=c++11 -openmp -O3 -o bin/grepg8 src/grepg8.cpp
 ```
 
 #### Makefile
@@ -35,7 +35,7 @@ make install
 
 ### Command Syntax:
 ```
-perg [-A <#> | -f <file> | -h | -r | -v | -V | -w] <search term>
+grepg8 [-A <#> | -f <file> | -h | -r | -v | -V | -w] <search term>
 ```
 
 ### Modes:

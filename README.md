@@ -70,4 +70,4 @@ grepg8 [-A <#>|-f <file>|-r|-v|-V] <search term>
 
 ![search inversion](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out3.PNG?raw=true)
 
-![recursive folder search with file paths](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out4.PNG?raw=true)
+![recursive folder search with file paths](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out4.PNG)

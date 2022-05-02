@@ -66,8 +66,8 @@ grepg8 [-A <#>|-f <file>|-r|-v|-V] <search term>
 
 ![single file search](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out1.PNG?raw=true)
 
-![help command](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out2.PNG)
+![help command](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out2.PNG?raw=true)
 
-![search inversion](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out3.PNG)
+![search inversion](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out3.PNG?raw=true)
 
-![recursive folder search with file paths](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out4.PNG)
+![recursive folder search with file paths](https://github.com/ani-54321/Grep-G8/blob/main/imgs/out4.PNG?raw=true)

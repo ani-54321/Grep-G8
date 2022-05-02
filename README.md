@@ -54,11 +54,11 @@ grepg8 [-A <#>|-f <file>|-r|-v|-V|-w] <search term>
 ## Text Files
 
 ### ch.txt
-![ch.txt](https://github.com/ani-54321/Grep-G8/blob/main/imgs/text_file1.PNG?raw=true)
+![ch.txt](https://github.com/ani-54321/Grep-G8/blob/main/imgs/txt_file1.PNG?raw=true)
 
 ### ch2.txt
-![ch2.txt](https://github.com/ani-54321/Grep-G8/blob/main/imgs/text_file2.PNG?raw=true)
+![ch2.txt](https://github.com/ani-54321/Grep-G8/blob/main/imgs/txt_file2.PNG?raw=true)
 
 ### ch3.txt
-![ch3.txt](https://github.com/ani-54321/Grep-G8/blob/main/imgs/text_file3.PNG?raw=true)
+![ch3.txt](https://github.com/ani-54321/Grep-G8/blob/main/imgs/txt_file3.PNG?raw=true)
 
